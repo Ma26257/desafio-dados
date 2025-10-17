@@ -1,27 +1,51 @@
-# Alura Store - Análise de Vendas
+# 🎁 Alura Store - Análise de Vendas
 
-## 🎯 Propósito da Análise
-Este projeto realiza uma análise das vendas da **Alura Store**, permitindo:
-- Identificar produtos mais e menos vendidos.
-- Avaliar o custo médio de frete por loja.
-- Observar tendências de vendas ao longo do tempo.
-- Gerar insights estratégicos para otimização de vendas e logística.
+
+Este projeto realiza uma análise das vendas da **Alura Store**
 
 ---
 
-## 🗂 Estrutura do Projeto
+## 🚀 Funcionalidades
 
+- ✅ Identificar produtos mais e menos vendidos.
+- ✅ Avaliar o custo médio de frete por loja.
+- ✅ Observar tendências de vendas ao longo do tempo.
+- ✅ Gerar insights estratégicos para otimização de vendas e logística.
+
+---
+
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- **Python**
+- **Pandas**
+- **Matplotlib / Seaborn**
+- **Jupyter Notebook / Google Colab**
+
+
+---
+
+## 📁 Estrutura de pastas
+
+```
 alura_store/
+│
 ├─ notebooks/
-│ └─ analise_alura_store.ipynb
+│   └─ analise_alura_store.ipynb       # Notebook principal
 ├─ data/
-│ ├─ vendas.csv
-│ └─ clientes.csv
+│   ├─ vendas.csv                      # Dados de vendas
+│   └─ clientes.csv                    # Dados de clientes (opcional)
 ├─ images/
-│ └─ graficos/
-├─ README.md
-└─ requirements.txt
+│   └─ graficos/                       # Gráficos gerados durante a análise
+├─ README.md                           # Este arquivo
+└─ requirements.txt                    # Dependências do projeto
+```
+
 ---
+
+## ▶️ Como usar
 
 ## 📊 Principais Gráficos e Insights
 
@@ -52,4 +76,14 @@ alura_store/
 2. Faça upload do notebook `analise_alura_store.ipynb` e dos arquivos CSV.
 3. Instale dependências, se necessário:
 ```bash
-!pip install pandas matplotlib seaborn
+!pip install pandas matplotlib seaborn.
+
+---
+
+
+
+---
+
+## ✨ Autor
+
+Desenvolvido por **Marcel Martinez**  
