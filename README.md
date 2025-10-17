@@ -10,18 +10,18 @@ Este projeto realiza uma análise das vendas da **Alura Store**, permitindo:
 ---
 
 ## 🗂 Estrutura do Projeto
+
 alura_store/
 │
 ├─ notebooks/
-│ └─ analise_alura_store.ipynb # Notebook principal
+│   └─ analise_alura_store.ipynb       # Notebook principal
 ├─ data/
-│ ├─ vendas.csv # Dados de vendas
-│ └─ clientes.csv # Dados de clientes (opcional)
+│   ├─ vendas.csv                      # Dados de vendas
+│   └─ clientes.csv                    # Dados de clientes (opcional)
 ├─ images/
-│ └─ graficos/ # Gráficos gerados durante a análise
-├─ README.md # Este arquivo
-└─ requirements.txt # Dependências do projeto
-
+│   └─ graficos/                       # Gráficos gerados durante a análise
+├─ README.md                           # Este arquivo
+└─ requirements.txt                    # Dependências do projeto
 
 ---
 
@@ -55,17 +55,3 @@ alura_store/
 3. Instale dependências, se necessário:
 ```bash
 !pip install pandas matplotlib seaborn
-
-Execute as células do notebook para gerar análises e gráficos.
-
-🛠 Tecnologias Utilizadas
-
-Python
-
-Pandas
-
-Matplotlib / Seaborn
-
-Jupyter Notebook / Google Colab
-
-
