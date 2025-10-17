@@ -50,7 +50,7 @@ alura_store/
 ## 📊 Principais Gráficos e Insights
 
 ### 1. Faturamento por Loja
-![Faturamento por Loja](graficos/faturamento_loja.png)  
+![Faturamento por Loja](graficos/faturamento_total.png)  
 **Insight:** Identificação das lojas com maior desempenho em vendas.
 
 ### 2. Produtos Mais e Menos Vendidos
