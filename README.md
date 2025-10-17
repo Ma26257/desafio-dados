@@ -75,7 +75,7 @@ alura_store/
 ## 🚀 Como Executar no Google Colab
 
 1. Abra o Colab: [https://colab.research.google.com/](https://colab.research.google.com/)
-2. Faça upload do notebook `analise_alura_store.ipynb` e dos arquivos CSV.
+2. Faça upload do notebook `AluraStoreBr (1).ipynb`
 3. Instale dependências, se necessário:
 ```bash
 !pip install pandas matplotlib seaborn.
