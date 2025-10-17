@@ -32,11 +32,14 @@ Este projeto realiza uma análise das vendas da **Alura Store**
 ```
 alura_store/
 │
-├─ notebooks/
-│   └─ AluraStoreBr (1).ipynb          # Notebook principal
-├─ data/
-│   ├─ vendas.csv                      # Dados de vendas
-│   └─ clientes.csv                    # Dados de clientes (opcional)
+├─ AluraStoreBr (1).ipynb              # Notebook principalnotebooks/
+│    
+├─ mapas_interativos/                  # Mapas Lojas
+│   ├─ Loja 1_mapa.html                     
+│   ├─ Loja 2_mapa.html
+│   ├─ Loja 3_mapa.html
+│   └─ Loja 4_mapa.html
+│                                 
 ├─ graficos/                           # Gráficos gerados durante a análise
 │                                      
 ├─ README.md                           # Este arquivo
