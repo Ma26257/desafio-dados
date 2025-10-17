@@ -30,7 +30,7 @@ Este projeto realiza uma análise das vendas da **Alura Store**
 ## 📁 Estrutura de pastas
 
 ```
-alura_store/
+desafio-dados/
 │
 ├─ graficos/                           # Gráficos gerados durante a análise
 ├─ mapas_interativos/                  # Mapas Lojas
