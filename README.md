@@ -45,7 +45,6 @@ alura_store/
 
 ---
 
-## ▶️ Como usar
 
 ## 📊 Principais Gráficos e Insights
 
@@ -54,16 +53,16 @@ alura_store/
 **Insight:** Identificação das lojas com maior desempenho em vendas.
 
 ### 2. Produtos Mais e Menos Vendidos
-![Produtos Mais Vendidos](images/graficos/produtos_mais_vendidos.png)  
-![Produtos Menos Vendidos](images/graficos/produtos_menos_vendidos.png)  
+![Produtos Mais Vendidos](graficos/top.png)  
+![Produtos Menos Vendidos](graficos/down.png)  
 **Insight:** Produtos que se destacam em cada loja e produtos com baixo desempenho.
 
 ### 3. Custo Médio de Frete
-![Custo Médio de Frete](images/graficos/custo_frete.png)  
+![Custo Médio de Frete](graficos/frete_medio.png)  
 **Insight:** Avaliação da eficiência logística e identificação de áreas para otimização.
 
 ### 4. Tendência de Vendas ao Longo do Tempo
-![Tendência de Vendas](images/graficos/tendencia_vendas.png)  
+![Tendência de Vendas](graficos/avaliacao_media.png)  
 **Insight:** Períodos de maior movimentação e sazonalidade.
 
 > **Observação:** Certifique-se de que as imagens estejam na pasta `images/graficos/` dentro do repositório.  
@@ -77,7 +76,7 @@ alura_store/
 3. Instale dependências, se necessário:
 ```bash
 !pip install pandas matplotlib seaborn.
-
+```
 ---
 
 
