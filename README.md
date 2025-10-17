@@ -1,4 +1,5 @@
-📊 Análise de Vendas - Alura Store
+📊 Análise de Vendas 
+
 🎯 Propósito da Análise
 
 O objetivo deste projeto é realizar uma análise exploratória das vendas da Alura Store, identificando padrões de comportamento de clientes, desempenho de produtos, custos de frete e tendências gerais de faturamento. A análise permite:
@@ -11,7 +12,6 @@ Detectar padrões de compras ao longo do tempo.
 
 Gerar insights que apoiem decisões estratégicas para aumento de vendas e otimização de processos.
 
-🗂 Estrutura do Projeto
 alura_store/
 │
 ├─ notebooks/
@@ -26,6 +26,7 @@ alura_store/
 │
 ├─ README.md                           # Este arquivo
 └─ requirements.txt                    # Dependências do projeto
+
 
 📈 Exemplos de Gráficos e Insights Obtidos
 1. Faturamento por Loja
