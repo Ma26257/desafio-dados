@@ -1,68 +1,60 @@
-📊 Análise de Vendas 
+# Alura Store - Análise de Vendas
 
-🎯 Propósito da Análise
+## 🎯 Propósito da Análise
+Este projeto realiza uma análise das vendas da **Alura Store**, permitindo:
+- Identificar produtos mais e menos vendidos.
+- Avaliar o custo médio de frete por loja.
+- Observar tendências de vendas ao longo do tempo.
+- Gerar insights estratégicos para otimização de vendas e logística.
 
-O objetivo deste projeto é realizar uma análise exploratória das vendas da Alura Store, identificando padrões de comportamento de clientes, desempenho de produtos, custos de frete e tendências gerais de faturamento. A análise permite:
+---
 
-Identificar os produtos mais e menos vendidos por loja.
-
-Avaliar a rentabilidade e eficiência logística através do custo médio de frete.
-
-Detectar padrões de compras ao longo do tempo.
-
-Gerar insights que apoiem decisões estratégicas para aumento de vendas e otimização de processos.
-
+## 🗂 Estrutura do Projeto
 alura_store/
 │
 ├─ notebooks/
-│   └─ analise_alura_store.ipynb       # Notebook principal com todas as análises
-│
+│ └─ analise_alura_store.ipynb # Notebook principal
 ├─ data/
-│   ├─ vendas.csv                      # Dados de vendas da loja
-│   └─ clientes.csv                    # Dados dos clientes (se houver)
-│
+│ ├─ vendas.csv # Dados de vendas
+│ └─ clientes.csv # Dados de clientes (opcional)
 ├─ images/
-│   └─ graficos/                       # Gráficos gerados durante a análise
-│
-├─ README.md                           # Este arquivo
-└─ requirements.txt                    # Dependências do projeto
+│ └─ graficos/ # Gráficos gerados durante a análise
+├─ README.md # Este arquivo
+└─ requirements.txt # Dependências do projeto
 
 
-📈 Exemplos de Gráficos e Insights Obtidos
-1. Faturamento por Loja
+---
 
-Insight: Identificação das lojas com maior desempenho em vendas.
+## 📊 Principais Gráficos e Insights
 
-2. Produtos Mais e Menos Vendidos
+### 1. Faturamento por Loja
+![Faturamento por Loja](images/graficos/faturamento_loja.png)  
+**Insight:** Identificação das lojas com maior desempenho em vendas.
 
-Insight: Produtos que se destacam em cada loja e produtos que precisam de atenção.
+### 2. Produtos Mais e Menos Vendidos
+![Produtos Mais Vendidos](images/graficos/produtos_mais_vendidos.png)  
+![Produtos Menos Vendidos](images/graficos/produtos_menos_vendidos.png)  
+**Insight:** Produtos que se destacam em cada loja e produtos com baixo desempenho.
 
-3. Custo Médio de Frete
+### 3. Custo Médio de Frete
+![Custo Médio de Frete](images/graficos/custo_frete.png)  
+**Insight:** Avaliação da eficiência logística e identificação de áreas para otimização.
 
-Insight: Avaliação da eficiência logística e áreas para otimização.
+### 4. Tendência de Vendas ao Longo do Tempo
+![Tendência de Vendas](images/graficos/tendencia_vendas.png)  
+**Insight:** Períodos de maior movimentação e sazonalidade.
 
-4. Tendência de Vendas ao Longo do Tempo
+> **Observação:** Certifique-se de que as imagens estejam na pasta `images/graficos/` dentro do repositório.  
 
-Insight: Períodos de maior movimentação e sazonalidade.
+---
 
-🚀 Como Executar o Notebook no Google Colab
+## 🚀 Como Executar no Google Colab
 
-Abra o Google Colab: https://colab.research.google.com/
-
-Faça upload do notebook analise_alura_store.ipynb ou abra diretamente do GitHub:
-
-Vá em Arquivo → Abrir notebook → GitHub e cole o link do repositório.
-
-Certifique-se de que os arquivos CSV estão acessíveis no Colab:
-
-from google.colab import files
-uploaded = files.upload()  # Faça upload de vendas.csv e clientes.csv
-
-
-Instale dependências (se necessário):
-
+1. Abra o Colab: [https://colab.research.google.com/](https://colab.research.google.com/)
+2. Faça upload do notebook `analise_alura_store.ipynb` e dos arquivos CSV.
+3. Instale dependências, se necessário:
+```bash
 !pip install pandas matplotlib seaborn
-
 
 Execute as células do notebook para gerar análises e gráficos.
 
@@ -75,3 +67,5 @@ Pandas
 Matplotlib / Seaborn
 
 Jupyter Notebook / Google Colab
+
+
