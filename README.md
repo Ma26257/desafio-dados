@@ -53,8 +53,8 @@ alura_store/
 **Insight:** Identificação das lojas com maior desempenho em vendas.
 
 ### 2. Produtos Mais e Menos Vendidos
-![Produtos Mais Vendidos](graficos/top.png)  
-![Produtos Menos Vendidos](graficos/down.png)  
+![Produtos Mais Vendidos](graficos/down.png)  
+![Produtos Menos Vendidos](graficos/top.png)  
 **Insight:** Produtos que se destacam em cada loja e produtos com baixo desempenho.
 
 ### 3. Custo Médio de Frete
