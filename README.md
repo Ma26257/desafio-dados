@@ -66,7 +66,7 @@ alura_store/
 ![Tendência de Vendas](graficos/avaliacao_media.png)  
 **Insight:** Períodos de maior movimentação e sazonalidade.
 
-> **Observação:** Certifique-se de que as imagens estejam na pasta `images/graficos/` dentro do repositório.  
+> **Observação:** Certifique-se de que as imagens estejam na pasta `graficos/` dentro do repositório.  
 
 ---
 
