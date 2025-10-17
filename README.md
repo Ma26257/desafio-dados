@@ -12,17 +12,15 @@ Este projeto realiza uma análise das vendas da **Alura Store**, permitindo:
 ## 🗂 Estrutura do Projeto
 
 alura_store/
-│
 ├─ notebooks/
-│   └─ analise_alura_store.ipynb       # Notebook principal
+│ └─ analise_alura_store.ipynb
 ├─ data/
-│   ├─ vendas.csv                      # Dados de vendas
-│   └─ clientes.csv                    # Dados de clientes (opcional)
+│ ├─ vendas.csv
+│ └─ clientes.csv
 ├─ images/
-│   └─ graficos/                       # Gráficos gerados durante a análise
-├─ README.md                           # Este arquivo
-└─ requirements.txt                    # Dependências do projeto
-
+│ └─ graficos/
+├─ README.md
+└─ requirements.txt
 ---
 
 ## 📊 Principais Gráficos e Insights
